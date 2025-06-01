@@ -19,7 +19,7 @@ function Contact() {
     };
 
     try {
-      await axios.post("https://getform.io/f/bnlqkqrb", userInfo);
+      await axios.post("https://getform.io/f/bgdllpoa", userInfo);
       toast.success("Your message has been sent successfully");
       reset();  // Form fields को reset करने के लिए
     } catch (error) {
