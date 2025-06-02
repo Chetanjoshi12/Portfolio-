@@ -18,7 +18,6 @@ function Home() {
       <div name="Home"
       className="max-w-screen-2xl container mx-auto px-4 md:px-10 lg:px-20 my-10 md:my-16 lg:my-20">
         <div className="flex flex-col md:flex-col lg:flex-row items-center">
-          {/* Left Section */}
           <div className="w-full lg:w-1/2 mt-8 md:mt-14 lg:mt-24 space-y-4 text-center lg:text-left">
             <span className="text-lg md:text-xl">Welcome In My Feed</span>
             <div className="flex justify-center lg:justify-start space-x-1 text-xl md:text-3xl lg:text-4xl">
@@ -38,10 +37,7 @@ function Home() {
               exceptional digital experiences, I strive to build innovative and
               user-friendly solutions..."
             </p>
-
-            {/* Social Media & Technologies */}
             <div className="flex flex-col md:flex-row justify-between items-center w-full space-y-5 md:space-y-0">
-              {/* Social Media Icons */}
               <div className="space-y-2">
                 <h1 className="font-bold text-center lg:text-left">Available on</h1>
                 <ul className="flex space-x-4 justify-center lg:justify-start">
@@ -72,8 +68,6 @@ function Home() {
                   </li>
                 </ul>
               </div>
-
-              {/* Technologies Section */}
               <div className="space-y-2">
                 <h1 className="font-bold text-center lg:text-left">Currently Working on</h1>
                 <ul className="flex space-x-4 justify-center lg:justify-start">
@@ -99,8 +93,6 @@ function Home() {
               </div>
             </div>
           </div>
-
-          {/* Right Section - Image */}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-8 md:mb-0 mt-6">
             <img 
               src={pic} 

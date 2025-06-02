@@ -7,7 +7,7 @@ function Contact() {
   const {
     register,
     handleSubmit,
-    reset,  // reset function को यहाँ include करें
+    reset,  
     formState: { errors },
   } = useForm();
 
@@ -21,7 +21,7 @@ function Contact() {
     try {
       await axios.post("https://getform.io/f/bgdllpoa", userInfo);
       toast.success("Your message has been sent successfully");
-      reset();  // Form fields को reset करने के लिए
+      reset();  
     } catch (error) {
       console.log(error);
       toast.error("Something went wrong");
